@@ -11,6 +11,7 @@ Plug 'morhetz/gruvbox'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'alvan/vim-closetag'
+Plug 'ap/vim-css-color'
 
 
 "Barra de estado
@@ -27,6 +28,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'Yggdroot/indentLine'
 Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
 
 
 call plug#end()
