@@ -8,8 +8,8 @@ call plug#begin('~/.vim/plugged')
 
 
 "Temas
-Plug 'morhetz/gruvbox'
-
+"Plug 'morhetz/gruvbox'
+Plug 'drewtempelmeyer/palenight.vim'
 
 "Autocompletado
 Plug 'sheerun/vim-polyglot'
@@ -34,11 +34,12 @@ Plug 'Yggdroot/indentLine'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
+Plug 'neoclide/coc.nvim'
 
 
 call plug#end()
 
 
 "Configuraciones de plugins
-colorscheme gruvbox
+colorscheme palenight
 let g:gruvbox_contrast_dark = 'hard'
